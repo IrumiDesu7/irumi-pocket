@@ -17,10 +17,11 @@ export function TajweedRuleCard({ rule }: TajweedRuleCardProps) {
         </div>
         {rule.huruf && (
           <div className="mt-2 rounded-lg bg-arabic-bg border border-arabic-border px-4 py-3 overflow-hidden relative">
-            <div className="absolute inset-y-2 left-0 w-[3px] rounded-r-full bg-primary/60" />
+            <div className="absolute inset-y-2 start-0 w-[3px] rounded-e-full bg-primary/60" />
             <p
               className="font-amiri text-[26px] leading-normal text-foreground/80 tracking-wider text-center"
               dir="rtl"
+              lang="ar"
             >
               {rule.huruf}
             </p>
@@ -48,6 +49,7 @@ export function TajweedRuleCard({ rule }: TajweedRuleCardProps) {
                 <span
                   className="font-amiri text-lg leading-relaxed text-foreground/85"
                   dir="rtl"
+                  lang="ar"
                 >
                   {ex.ayat}
                 </span>
