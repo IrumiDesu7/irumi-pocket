@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0f0f0f"/>
+  <rect x="24" y="24" width="464" height="464" rx="80" fill="none" stroke="#2d8a55" stroke-width="4" opacity="0.3"/>
+  <g transform="translate(256,240)">
+    <!-- Open book shape -->
+    <path d="M-120,-60 C-120,-60 -60,-80 0,-40 C60,-80 120,-60 120,-60 L120,60 C120,60 60,40 0,80 C-60,40 -120,60 -120,60 Z" fill="none" stroke="#2d8a55" stroke-width="8" stroke-linejoin="round"/>
+    <!-- Book spine -->
+    <line x1="0" y1="-40" x2="0" y2="80" stroke="#2d8a55" stroke-width="4" opacity="0.5"/>
+    <!-- Page lines left -->
+    <line x1="-90" y1="-30" x2="-20" y2="-20" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+    <line x1="-85" y1="-10" x2="-15" y2="0" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+    <line x1="-80" y1="10" x2="-10" y2="20" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+    <!-- Page lines right -->
+    <line x1="90" y1="-30" x2="20" y2="-20" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+    <line x1="85" y1="-10" x2="15" y2="0" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+    <line x1="80" y1="10" x2="10" y2="20" stroke="#2d8a55" stroke-width="3" opacity="0.3"/>
+  </g>
+  <!-- Crescent accent -->
+  <g transform="translate(256,130)">
+    <circle cx="0" cy="0" r="28" fill="#2d8a55"/>
+    <circle cx="10" cy="-8" r="22" fill="#0f0f0f"/>
+  </g>
+  <!-- App name -->
+  <text x="256" y="370" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="42" fill="#e8e8e8" letter-spacing="6">POCKET</text>
+  <text x="256" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="400" font-size="18" fill="#2d8a55" letter-spacing="4">ISLAMIC GUIDE</text>
+</svg>

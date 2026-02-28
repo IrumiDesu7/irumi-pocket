@@ -40,19 +40,21 @@ This ensures the next session can pick up exactly where the last one left off.
 - [x] ~~2026-02-28~~ Create `src/pages/Tajweed.tsx`
 
 ### Phase 4: Features
-- [ ] Create `src/hooks/useBookmarks.ts`
-- [ ] Create `src/components/content/BookmarkButton.tsx`
-- [ ] Create `src/pages/Favorites.tsx`
-- [ ] Create `src/hooks/useShare.ts`
-- [ ] Create `src/components/features/ShareSheet.tsx`
-- [ ] Add quick filter/search within each material page
+- [x] ~~2026-02-28~~ Create `src/hooks/useBookmarks.ts`
+- [x] ~~2026-02-28~~ Create `src/components/content/BookmarkButton.tsx`
+- [x] ~~2026-02-28~~ Create `src/pages/Favorites.tsx`
+- [x] ~~2026-02-28~~ Create `src/hooks/useShare.ts`
+- [x] ~~2026-02-28~~ Create `src/components/features/ShareSheet.tsx` (integrated share button directly into DuaCard instead)
+- [x] ~~2026-02-28~~ Add quick filter/search within each material page
+- [x] ~~2026-02-28~~ Create `src/hooks/useReport.ts`
+- [x] ~~2026-02-28~~ Create `src/components/features/ReportButton.tsx`
 
 ### Phase 5: Polish & Deploy
-- [ ] Self-host Amiri font
-- [ ] Add PWA icons and apple splash screens
+- [x] ~~2026-02-28~~ Self-host Amiri font
+- [x] ~~2026-02-28~~ Add PWA icons and apple splash screens
 - [ ] Test offline functionality
-- [ ] Remove unused Vite template files
-- [ ] Deploy to Netlify
+- [x] ~~2026-02-28~~ Remove unused Vite template files
+- [x] ~~2026-02-28~~ Deploy to Netlify
 
 ---
 
@@ -83,6 +85,7 @@ Personal "pocket" reading app for Islamic learning materials based on Salafi man
 | Content organization | Collapsible TOC per material |
 | Tab icons | Lucide icons |
 | Sharing | Native share sheet for duas |
+| Report | mailto: button to report dhaif/maudhu content to ikalam89@gmail.com |
 | Hosting | Netlify |
 
 ---
@@ -112,7 +115,8 @@ src/
 │   │   ├── ContentBlock.tsx   # Handles different content types (p, note, warn, steps)
 │   │   └── BookmarkButton.tsx # Toggle bookmark state
 │   └── features/
-│       └── ShareSheet.tsx     # Native share integration
+│       ├── ShareSheet.tsx     # Native share integration
+│       └── ReportButton.tsx   # Report dhaif/maudhu content via email
 ├── pages/
 │   ├── AdabSunnah.tsx         # Main adab content view
 │   ├── BacaanShalat.tsx       # Prayer readings view
@@ -124,7 +128,8 @@ src/
 │   └── tajweed.ts             # Extracted from PDF
 ├── hooks/
 │   ├── useBookmarks.ts        # LocalStorage bookmark management
-│   └── useShare.ts            # Web Share API wrapper
+│   ├── useShare.ts            # Web Share API wrapper
+│   └── useReport.ts           # mailto: report builder
 ├── lib/
 │   ├── utils.ts               # Existing shadcn utils
 │   └── types.ts               # Content type definitions
@@ -282,6 +287,18 @@ const theme = {
 - Tips box for practical advice
 - Matches Tajweed PDF visual structure
 
+#### ReportButton.tsx
+- Small icon button (Flag or AlertTriangle) on each dua/section
+- Opens pre-filled `mailto:` email to `ikalam89@gmail.com`
+- Subject: `[Laporan] {material title} — {section/chapter title}`
+- Body auto-includes: material name, chapter/section, dua Arabic text & reference
+- Purpose: report content that is dhaif, maudhu, or not according to Salafi manhaj
+
+#### useReport.ts
+- Builds `mailto:` URI with pre-filled subject, body, and recipient
+- Accepts content context: `{ materialId, chapterTitle, sectionTitle, duaAr?, duaRef? }`
+- Opens default mail client via `window.location.href`
+
 #### useBookmarks.ts
 - Save bookmark IDs to localStorage
 - `{ materialId, chapterId, duaId }` structure
@@ -323,6 +340,8 @@ const theme = {
 4. Create `src/hooks/useShare.ts` (Web Share API + clipboard fallback)
 5. Create `src/components/features/ShareSheet.tsx`
 6. Add quick filter/search within each material page
+7. Create `src/hooks/useReport.ts` (mailto: URI builder)
+8. Create `src/components/features/ReportButton.tsx`
 
 ### Phase 5: Polish & Deploy
 1. Self-host Amiri font (download + preload)
@@ -356,6 +375,8 @@ const theme = {
 - `src/components/content/ContentBlock.tsx` - p, note, warn, steps, highlight blocks
 - `src/components/content/BookmarkButton.tsx` - Bookmark toggle
 - `src/components/features/ShareSheet.tsx` - Web Share API wrapper
+- `src/components/features/ReportButton.tsx` - Report dhaif/maudhu content via mailto:
+- `src/hooks/useReport.ts` - mailto: URI builder for reports
 - `src/pages/AdabSunnah.tsx` - Daily adab content
 - `src/pages/BacaanShalat.tsx` - Prayer readings
 - `src/pages/Tajweed.tsx` - Tajweed rules reference
