@@ -1,4 +1,5 @@
 import type { TajweedRule } from "@/lib/types";
+import { BookmarkButton } from "./BookmarkButton";
 
 interface TajweedRuleCardProps {
   rule: TajweedRule;
@@ -8,9 +9,12 @@ export function TajweedRuleCard({ rule }: TajweedRuleCardProps) {
   return (
     <div className="my-5">
       <div className="mb-2.5">
-        <h4 className="text-[15px] font-semibold leading-snug text-foreground">
-          {rule.title}
-        </h4>
+        <div className="flex items-start justify-between gap-2">
+          <h4 className="text-[15px] font-semibold leading-snug text-foreground">
+            {rule.title}
+          </h4>
+          <BookmarkButton id={rule.id} className="-mt-1 -mr-1 flex-none" />
+        </div>
         {rule.huruf && (
           <div className="mt-2 rounded-lg bg-arabic-bg border border-arabic-border px-4 py-3 overflow-hidden relative">
             <div className="absolute inset-y-2 left-0 w-[3px] rounded-r-full bg-primary/60" />

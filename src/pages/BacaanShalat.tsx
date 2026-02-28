@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Search, X } from "lucide-react";
 import { BACAAN_SHALAT_CHAPTERS } from "@/data/bacaan-shalat";
 import { CollapsibleTOC } from "@/components/layout/CollapsibleTOC";
 import { ContentBlock } from "@/components/content/ContentBlock";
@@ -6,7 +7,19 @@ import { SectionHeader } from "@/components/content/SectionHeader";
 
 export function BacaanShalat() {
   const [activeChapterId, setActiveChapterId] = useState<number | null>(null);
+  const [query, setQuery] = useState("");
   const chapterRefs = useRef<Map<number, HTMLElement>>(new Map());
+
+  const filtered = useMemo(() => {
+    if (!query.trim()) return BACAAN_SHALAT_CHAPTERS;
+    const q = query.toLowerCase();
+    return BACAAN_SHALAT_CHAPTERS.filter(
+      (ch) =>
+        ch.title.toLowerCase().includes(q) ||
+        ch.sub.toLowerCase().includes(q) ||
+        ch.sections.some((s) => s.heading.toLowerCase().includes(q)),
+    );
+  }, [query]);
 
   const handleChapterSelect = useCallback((id: number) => {
     const el = chapterRefs.current.get(id);
@@ -44,14 +57,37 @@ export function BacaanShalat() {
         </p>
       </div>
 
-      <CollapsibleTOC
-        chapters={BACAAN_SHALAT_CHAPTERS}
-        activeChapterId={activeChapterId}
-        onChapterSelect={handleChapterSelect}
-      />
+      <div className="mx-4 mb-4">
+        <div className="relative">
+          <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground/60" />
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Cari bab atau bagian..."
+            className="w-full rounded-lg border border-border bg-card py-2.5 pl-9 pr-9 text-sm text-foreground placeholder:text-muted-foreground/50 focus:border-primary/50 focus:outline-none"
+          />
+          {query && (
+            <button
+              onClick={() => setQuery("")}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full p-0.5 text-muted-foreground hover:text-foreground"
+            >
+              <X className="size-4" />
+            </button>
+          )}
+        </div>
+      </div>
+
+      {!query && (
+        <CollapsibleTOC
+          chapters={BACAAN_SHALAT_CHAPTERS}
+          activeChapterId={activeChapterId}
+          onChapterSelect={handleChapterSelect}
+        />
+      )}
 
       <div className="space-y-14 px-5">
-        {BACAAN_SHALAT_CHAPTERS.map((chapter) => (
+        {filtered.map((chapter) => (
           <article
             key={chapter.id}
             ref={(el) => {
@@ -80,6 +116,14 @@ export function BacaanShalat() {
             ))}
           </article>
         ))}
+
+        {filtered.length === 0 && query && (
+          <div className="py-16 text-center">
+            <p className="text-sm text-muted-foreground">
+              Tidak ditemukan hasil untuk "{query}"
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
