@@ -3,7 +3,7 @@ import { useSyncExternalStore } from "react";
 const STORAGE_KEY = "irumi-pocket-bookmarks";
 
 let bookmarks = loadFromStorage();
-let listeners = new Set<() => void>();
+const listeners = new Set<() => void>();
 
 function loadFromStorage(): Set<string> {
   try {
@@ -16,7 +16,7 @@ function loadFromStorage(): Set<string> {
 
 function persist(): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify([...bookmarks]));
-  listeners.forEach((fn) => fn());
+  listeners.forEach((fn) => { fn(); });
 }
 
 function subscribe(listener: () => void): () => void {
