@@ -25,19 +25,19 @@ This ensures the next session can pick up exactly where the last one left off.
 - [x] ~~2026-02-28~~ Replace `src/App.tsx` with app shell + tab routing
 
 ### Phase 2: Content Components
-- [ ] Convert `panduan-adab-sunnah.jsx` → `src/data/adab-sunnah.ts`
-- [ ] Create `src/components/content/DuaCard.tsx`
-- [ ] Create `src/components/content/SectionHeader.tsx`
-- [ ] Create `src/components/content/ContentBlock.tsx`
-- [ ] Create `src/components/layout/CollapsibleTOC.tsx`
-- [ ] Create `src/pages/AdabSunnah.tsx`
+- [x] ~~2026-02-28~~ Convert `panduan-adab-sunnah.jsx` → `src/data/adab-sunnah.ts`
+- [x] ~~2026-02-28~~ Create `src/components/content/DuaCard.tsx`
+- [x] ~~2026-02-28~~ Create `src/components/content/SectionHeader.tsx`
+- [x] ~~2026-02-28~~ Create `src/components/content/ContentBlock.tsx`
+- [x] ~~2026-02-28~~ Create `src/components/layout/CollapsibleTOC.tsx`
+- [x] ~~2026-02-28~~ Create `src/pages/AdabSunnah.tsx`
 
 ### Phase 3: PDF Content Extraction
-- [ ] Extract `bacaan-shalat.pdf` → `src/data/bacaan-shalat.ts`
-- [ ] Extract `panduan_tajweed.pdf` → `src/data/tajweed.ts`
-- [ ] Create `src/components/content/TajweedRuleCard.tsx`
-- [ ] Create `src/pages/BacaanShalat.tsx`
-- [ ] Create `src/pages/Tajweed.tsx`
+- [x] ~~2026-02-28~~ Extract `bacaan-shalat.pdf` → `src/data/bacaan-shalat.ts`
+- [x] ~~2026-02-28~~ Extract `panduan_tajweed.pdf` → `src/data/tajweed.ts`
+- [x] ~~2026-02-28~~ Create `src/components/content/TajweedRuleCard.tsx`
+- [x] ~~2026-02-28~~ Create `src/pages/BacaanShalat.tsx`
+- [x] ~~2026-02-28~~ Create `src/pages/Tajweed.tsx`
 
 ### Phase 4: Features
 - [ ] Create `src/hooks/useBookmarks.ts`
