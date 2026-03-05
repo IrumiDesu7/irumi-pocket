@@ -11,7 +11,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabId>("adab");
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="irumi-pocket-theme">
+    <ThemeProvider defaultTheme="system" storageKey="irumi-pocket-theme">
       <AppShell>
         {activeTab === "adab" && <AdabSunnah />}
         {activeTab === "shalat" && <BacaanShalat />}
