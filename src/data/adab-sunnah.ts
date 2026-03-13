@@ -111,7 +111,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Bismillāh, Allāhumma innī a'ūdzu bika minal-khubutsi wal-khabā'its.",
               arti: "Dengan menyebut nama Allah. Ya Allah, aku berlindung kepada-Mu dari setan laki-laki dan setan perempuan.",
-              ref: "HR. Bukhari no. 142, Muslim no. 375 — Shahih. Tambahan Bismillah: Tirmidzi no. 606",
+              ref: "HR. Bukhari no. 142, Muslim no. 375 — Shahih (Muttafaq 'Alaih). Tambahan Bismillah: HR. Tirmidzi no. 606 — Shahih (Al-Albani)",
             },
           },
           {
@@ -237,7 +237,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Alhamdulillāhil-ladzī kasānī hādzā wa razaqanīhi min ghairi hawlin minnī wa lā quwwah.",
               arti: "Segala puji bagi Allah yang telah memberiku pakaian ini dan memberi rezeki tanpa daya dan kekuatan dariku.",
-              ref: "HR. Abu Dawud no. 4023, Tirmidzi no. 3458 — Hasan",
+              ref: "HR. Abu Dawud no. 4023 — Hasan (Al-Albani)",
               fadl: "Diampuni dosanya yang telah lalu.",
             },
           },
@@ -328,7 +328,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Alhamdulillāhil-ladzī ath'amanī hādzā wa razaqanīhi min ghairi hawlin minnī wa lā quwwah.",
               arti: "Segala puji bagi Allah yang telah memberi makan ini kepadaku tanpa daya dan kekuatan dariku.",
-              ref: "HR. Tirmidzi no. 3458, Abu Dawud no. 4023 — Shahih",
+              ref: "HR. Tirmidzi no. 3458, Abu Dawud no. 4023 — Hasan (Al-Albani)",
               fadl: "Diampuni dosa yang telah lalu.",
             },
           },
@@ -635,10 +635,10 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
             t: "dua",
             dua: {
               id: "adab-13-2",
-              ar: "اَللَّهُمَّ أَسْلَمْتُ نَفْسِيْ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ إِلَيْكَ",
+              ar: "اَللَّهُمَّ أَسْلَمْتُ وَجْهِيَ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ إِلَيْكَ",
               latin:
-                "Allāhumma aslamtu nafsī ilaik, wa fawwadhtu amrī ilaik, wa wajjahtu wajhī ilaik, wa alja'tu zhahrī ilaik.",
-              arti: "Ya Allah, aku pasrahkan diriku kepada-Mu, aku serahkan urusanku kepada-Mu, aku hadapkan wajahku kepada-Mu, aku sandarkan punggungku kepada-Mu.",
+                "Allāhumma aslamtu wajhī ilaik, wa fawwadhtu amrī ilaik, wa wajjahtu wajhī ilaik, wa alja'tu zhahrī ilaik.",
+              arti: "Ya Allah, aku serahkan wajahku kepada-Mu, aku serahkan urusanku kepada-Mu, aku hadapkan wajahku kepada-Mu, aku sandarkan punggungku kepada-Mu.",
               ref: "HR. Bukhari no. 247, Muslim no. 2710 — Shahih",
             },
           },
