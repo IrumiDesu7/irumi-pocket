@@ -111,10 +111,21 @@ export function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
 				})}
 			</div>
 
-			{/* Theme toggle — desktop sidebar bottom */}
-			<div className="mt-auto hidden lg:flex lg:items-center lg:gap-2.5 lg:border-t lg:border-border/30 lg:px-5 lg:py-4">
-				<ThemeToggle />
-				<span className="text-xs text-muted-foreground">Tema</span>
+			{/* Footer — desktop sidebar bottom */}
+			<div className="mt-auto hidden lg:block lg:border-t lg:border-border/30 lg:px-5 lg:py-4">
+				<div className="flex items-center gap-2.5">
+					<ThemeToggle />
+					<span className="text-xs text-muted-foreground">Tema</span>
+				</div>
+				<a
+					href="https://saweria.co/irumid"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="mt-3 flex items-center gap-2 rounded-lg px-1 py-1.5 text-muted-foreground/50 transition-colors duration-200 hover:text-primary/70"
+				>
+					<Heart className="size-3.5" strokeWidth={1.75} />
+					<span className="text-[11px]">Dukung Kami</span>
+				</a>
 			</div>
 		</nav>
 	);
