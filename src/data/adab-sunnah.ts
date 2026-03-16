@@ -144,7 +144,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
         content: [
           {
             t: "p",
-            text: "Masuk dengan kaki kiri, keluar dengan kaki kanan — qiyas dari hadits Aisyah (HR. Bukhari no. 186, Muslim no. 268).",
+            text: "Masuk dengan kaki kiri, keluar dengan kaki kanan — qiyas dari hadits Aisyah (HR. Bukhari no. 168, Muslim no. 268).",
           },
           {
             t: "p",
@@ -214,7 +214,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Allāhummaj'alnī minat-tawwābīna waj'alnī minal-mutathahhirīn.",
               arti: "Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan menyucikan diri.",
-              ref: "HR. Tirmidzi no. 55 — Shahih (Al-Albani)",
+              ref: "HR. Tirmidzi no. 55 — Shahih (Al-Albani). Catatan: sebagian ulama (Ibn Hajar) menilai tambahan ini dha'if; hadits dasarnya di Muslim no. 234 shahih.",
             },
           },
         ],
@@ -339,7 +339,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
         content: [
           {
             t: "p",
-            text: "Makan dengan tangan kanan — setan makan dengan kiri (HR. Muslim no. 2020). Nabi ﷺ tidak pernah mencela makanan (HR. Bukhari no. 3370).",
+            text: "Makan dengan tangan kanan — setan makan dengan kiri (HR. Muslim no. 2020). Nabi ﷺ tidak pernah mencela makanan (HR. Bukhari no. 5409).",
           },
           {
             t: "p",
@@ -382,7 +382,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Allāhumma innī a'ūdzu bika an adhilla aw udhalla, aw azilla aw uzalla, aw azhlima aw uzhlama, aw ajhala aw yujhala 'alayya.",
               arti: "Ya Allah, aku berlindung kepada-Mu dari kesesatan atau disesatkan, dari ketergelinciran atau digelincirkan, dari menzalimi atau dizalimi, dari kebodohan atau dijahili.",
-              ref: "HR. Abu Dawud dan Ibn Majah — Shahih (Al-Albani)",
+              ref: "HR. Abu Dawud no. 5094, Ibn Majah no. 3884 — Shahih (Al-Albani)",
             },
           },
         ],
@@ -454,7 +454,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "note",
-            text: "Seluruh pertukaran ini: HR. Bukhari no. 6224. Jika bersin >3×, cukup didoakan 'Syafākallāh'.",
+            text: "Seluruh pertukaran ini: HR. Bukhari no. 6224. Jika bersin >3×, Nabi ﷺ bersabda: 'Hadzā mazkūm (orang ini sedang pilek)' — boleh didoakan kesembuhannya (HR. Muslim; Ibn Majah).",
           },
         ],
       },
@@ -635,10 +635,10 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
             t: "dua",
             dua: {
               id: "adab-13-2",
-              ar: "اَللَّهُمَّ أَسْلَمْتُ وَجْهِيَ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ إِلَيْكَ",
+              ar: "اَللَّهُمَّ أَسْلَمْتُ وَجْهِيَ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لَا مَلْجَأَ وَلَا مَنْجَا مِنْكَ إِلَّا إِلَيْكَ، آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ، وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ",
               latin:
-                "Allāhumma aslamtu wajhī ilaik, wa fawwadhtu amrī ilaik, wa wajjahtu wajhī ilaik, wa alja'tu zhahrī ilaik.",
-              arti: "Ya Allah, aku serahkan wajahku kepada-Mu, aku serahkan urusanku kepada-Mu, aku hadapkan wajahku kepada-Mu, aku sandarkan punggungku kepada-Mu.",
+                "Allāhumma aslamtu wajhī ilaik, wa fawwadhtu amrī ilaik, wa wajjahtu wajhī ilaik, wa alja'tu zhahrī ilaik, raghbatan wa rahbatan ilaik, lā malja'a wa lā manjā minka illā ilaik, āmantu bikitābikalladzī anzalt, wa bi nabiyyikalladzī arsalt.",
+              arti: "Ya Allah, aku serahkan wajahku kepada-Mu, aku serahkan urusanku kepada-Mu, aku hadapkan wajahku kepada-Mu, aku sandarkan punggungku kepada-Mu, dengan penuh harap dan takut kepada-Mu. Tidak ada tempat berlindung dan menyelamatkan diri dari-Mu kecuali kepada-Mu. Aku beriman kepada kitab-Mu yang Engkau turunkan dan kepada nabi-Mu yang Engkau utus.",
               ref: "HR. Bukhari no. 247, Muslim no. 2710 — Shahih",
             },
           },
@@ -685,7 +685,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Tidur miring ke kanan. Tengkurap dimurkai Allah (HR. Ibn Majah no. 3724).",
+            text: "Tidur miring ke kanan. Tengkurap dibenci Allah (HR. Ibn Majah no. 3724).",
           },
         ],
       },

@@ -79,7 +79,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Allahu Akbar kabiiran, walhamdulillaahi katsiiran, wa subhaanallaahi bukratan wa ashiilaa.",
               arti: "Allah Maha Besar dengan sebesar-besarnya, segala puji bagi Allah dengan pujian yang banyak, Maha Suci Allah di pagi dan petang hari.",
-              ref: "HR. Muslim no. 601, dari Ibnu Umar",
+              ref: "HR. Muslim no. 601, riwayat Ibnu Umar — diucapkan seorang sahabat, lalu dipuji Nabi ﷺ",
               fadl: "Nabi ﷺ bersabda: \"Aku takjub dengannya, dibukakan untuknya pintu-pintu langit.\" Ibnu Umar berkata: \"Aku tidak pernah meninggalkannya sejak itu.\"",
             },
           },
@@ -155,7 +155,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
               latin: "Subhaana Rabbiyal 'Azhiim",
               arti: "Maha Suci Tuhanku Yang Maha Agung.",
-              ref: "HR. Muslim, dari Hudzaifah",
+              ref: "HR. Muslim no. 772, dari Hudzaifah",
             },
           },
           {
@@ -243,7 +243,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
               latin: "Subhaana Rabbiyal A'laa",
               arti: "Maha Suci Tuhanku Yang Maha Tinggi.",
-              ref: "HR. Muslim",
+              ref: "HR. Muslim no. 772",
             },
           },
           {
@@ -293,7 +293,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Allahummaghfir lii, warhamni, wajburni, warfa'ni, wahdini, wa 'aafini, warzuqni",
               arti: "Ya Allah, ampunilah aku, rahmatilah aku, perbaikilah keadaanku, angkatlah derajatku, berilah aku petunjuk, berilah aku keselamatan, dan berilah aku rezeki.",
-              ref: "HR. Abu Dawud no. 850, At-Tirmidzi no. 284, Ibnu Majah no. 898 — hasan",
+              ref: "HR. Abu Dawud no. 850, At-Tirmidzi no. 284, Ibnu Majah no. 898 — hasan. Lafazh gabungan dari beberapa riwayat.",
             },
           },
           {
@@ -663,8 +663,8 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu yuhyii wa yumiitu wa huwa 'alaa kulli syai-in qadiir",
               arti: "Tiada Tuhan selain Allah semata, tiada sekutu bagi-Nya, bagi-Nya kerajaan, bagi-Nya pujian, Dia menghidupkan dan mematikan, Dia Maha Kuasa atas segala sesuatu.",
-              ref: "HR. At-Tirmidzi, Ahmad — shahih",
-              fadl: "Setara memerdekakan 4 budak, dan dijaga dari syaitan hingga sore/pagi hari.",
+              ref: "HR. At-Tirmidzi no. 3474, Ahmad — hasan",
+              fadl: "Setara memerdekakan 4 budak dari keturunan Ismail, dan dijaga dari syaitan hingga sore/pagi hari.",
             },
           },
         ],

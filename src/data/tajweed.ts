@@ -137,7 +137,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
           },
           {
             ayat: "\u0623\u064E\u0646\u0652\u0628\u0650\u0626\u0652\u0647\u064F\u0645",
-            latin: "ambi-hum",
+            latin: "ambi'hum",
             keterangan: "Nun \u2192 mim + dengung",
           },
           {
@@ -303,9 +303,9 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
       },
       {
         id: "mad-jaiz-munfashil",
-        title: "Mad Jaiz Munfashil \u2014 2-4 Harakat",
+        title: "Mad Jaiz Munfashil \u2014 4-5 Harakat",
         caraBaca:
-          "Huruf mad di akhir kata bertemu hamzah di awal kata berikutnya. Boleh dipanjangkan 2-4 harakat.",
+          "Huruf mad di akhir kata bertemu hamzah di awal kata berikutnya. Dipanjangkan 4-5 harakat (Hafs 'an 'Ashim via Shatibiyyah).",
         examples: [
           {
             ayat: "\u0628\u0650\u0645\u064E\u0627 \u0623\u064F\u0646\u0652\u0632\u0650\u0644\u064E",
@@ -422,7 +422,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         examples: [
           {
             ayat: "\u062B\u064F\u0645\u0651\u064E / \u0625\u0650\u0646\u0651\u064E",
-            latin: "inna / tsumma",
+            latin: "tsumma / inna",
             keterangan: "Otomatis ada dengung pada tasydid",
           },
         ],
@@ -443,7 +443,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         examples: [
           {
             ayat: "\u064A\u064E\u0642\u0652\u0637\u064E\u0639\u064F",
-            latin: "yaq-tha'u",
+            latin: "yaq-tho'u",
             keterangan: "Qaf mati di tengah kata \u2192 pantulan ringan",
           },
         ],
@@ -506,7 +506,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         title: "Waqaf La",
         huruf: "\u0644\u0627",
         caraBaca:
-          "Jangan berhenti. Makna ayat akan rusak jika berhenti di sini.",
+          "Sangat dianjurkan untuk tidak berhenti. Berhenti di sini bisa mengubah makna ayat.",
         examples: [],
       },
       {
