@@ -737,4 +737,76 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
       },
     ],
   },
+  {
+    id: 14,
+    title: "Mengusir Was-was Setan",
+    sub: "Meludah ke kiri tiga kali & ta'awwudz",
+    sections: [
+      {
+        heading: "Sebab: Setan Khanzab",
+        content: [
+          {
+            t: "p",
+            text: "Sahabat Utsman bin Abil 'Ash radhiyallahu 'anhu mengadu kepada Rasulullah ﷺ bahwa setan telah menghalangi antara dirinya dengan shalatnya dan bacaannya sehingga menjadi kacau.",
+          },
+          {
+            t: "p",
+            text: "Rasulullah ﷺ bersabda bahwa itu adalah setan yang bernama Khanzab (خِنْزِب) — setan yang khusus bertugas mengganggu shalat seorang muslim.",
+            src: "HR. Muslim no. 2203",
+          },
+          {
+            t: "note",
+            text: "Was-was dalam shalat adalah ujian nyata yang dialami bahkan oleh sahabat Nabi ﷺ. Islam memberikan solusi praktis untuk mengatasinya.",
+          },
+        ],
+      },
+      {
+        heading: "Cara Mengatasinya",
+        content: [
+          {
+            t: "steps",
+            items: [
+              "Membaca ta'awwudz (berlindung kepada Allah dari setan)",
+              "Meniup ringan (tanpa air liur) ke arah kiri sebanyak tiga kali",
+            ],
+          },
+          {
+            t: "dua",
+            dua: {
+              id: "adab-14-1",
+              ar: "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+              latin: "A'ūdzu billāhi minasy-syaithānir-rajīm.",
+              arti: "Aku berlindung kepada Allah dari setan yang terkutuk.",
+              ref: "HR. Muslim no. 2203, dari Utsman bin Abil 'Ash — Shahih",
+            },
+          },
+          {
+            t: "warn",
+            text: "Yang dimaksud 'meludah' adalah meniup ringan (نَفْث — nafts) ke kiri tanpa mengeluarkan air liur, agar tidak mengotori tempat shalat atau mengganggu orang di sebelah kiri.",
+          },
+        ],
+      },
+      {
+        heading: "Hadits Lengkap",
+        content: [
+          {
+            t: "dua",
+            dua: {
+              id: "adab-14-2",
+              ar: "ذَاكَ شَيْطَانٌ يُقَالُ لَهُ خِنْزِبٌ فَإِذَا أَحْسَسْتَهُ فَتَعَوَّذْ بِاللَّهِ مِنْهُ وَاتْفِلْ عَلَى يَسَارِكَ ثَلَاثًا",
+              latin:
+                "Dzāka syaithānun yuqālu lahu Khinzib, fa idzā ahsastahu fata'awwadz billāhi minhu, watfil 'alā yasārika tsalātsan.",
+              arti: "Itu adalah setan yang disebut Khanzab. Jika engkau merasakannya, maka berlindunglah kepada Allah darinya dan meludahlah (tiup ringan) ke kirimu tiga kali.",
+              ref: "HR. Muslim no. 2203, dari Utsman bin Abil 'Ash — Shahih",
+            },
+          },
+          {
+            t: "p",
+            text: "Utsman berkata: 'Aku melakukan hal itu, dan Allah pun menghilangkannya dariku.'",
+            src: "HR. Muslim no. 2203",
+          },
+        ],
+      },
+    ],
+  },
 ];

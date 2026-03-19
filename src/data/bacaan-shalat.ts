@@ -671,4 +671,148 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
       },
     ],
   },
+  {
+    id: 13,
+    title: "Sujud Sahwi",
+    sub: "Sujud karena lupa atau keliru dalam shalat",
+    sections: [
+      {
+        heading: "Pengertian",
+        content: [
+          {
+            t: "p",
+            text: "Sujud Sahwi (سُجُودُ السَّهْوِ) adalah dua kali sujud yang dilakukan karena kesalahan atau kelupaan dalam shalat. Hukumnya wajib ketika ada sebabnya.",
+          },
+        ],
+      },
+      {
+        heading: "Tiga Sebab Sujud Sahwi",
+        content: [
+          {
+            t: "steps",
+            items: [
+              "Menambah sesuatu (ziyadah) — misal: shalat Zhuhur jadi 5 rakaat",
+              "Mengurangi sesuatu yang wajib (nuqshan) — misal: lupa tasyahud awal",
+              "Ragu (syakk) — misal: tidak yakin sudah 3 atau 4 rakaat",
+            ],
+          },
+          {
+            t: "note",
+            text: "Ketiga sebab ini berdasarkan penjelasan Syaikh Ibnu Utsaimin rahimahullah, disarikan dari hadits-hadits shahih.",
+          },
+        ],
+      },
+      {
+        heading: "Kapan Dilakukan?",
+        content: [
+          {
+            t: "sub",
+            text: "Sebelum salam",
+          },
+          {
+            t: "p",
+            text: "Jika mengurangi sesuatu yang wajib (misal: lupa tasyahud awal), atau ragu dan tidak ada yang lebih kuat di antara dua kemungkinan.",
+          },
+          {
+            t: "sub",
+            text: "Sesudah salam",
+          },
+          {
+            t: "p",
+            text: "Jika menambah sesuatu (misal: shalat 5 rakaat), atau ragu tapi salah satu kemungkinan lebih kuat.",
+          },
+          {
+            t: "warn",
+            text: "Tidak perlu mengulangi tasyahud setelah sujud sahwi, baik yang dilakukan sebelum maupun sesudah salam.",
+          },
+        ],
+      },
+      {
+        heading: "Dalil: Kelebihan Rakaat",
+        content: [
+          {
+            t: "p",
+            text: "Ibnu Mas'ud radhiyallahu 'anhu meriwayatkan bahwa Nabi ﷺ shalat Zhuhur 5 rakaat. Setelah diberitahu, beliau sujud dua kali (sesudah salam).",
+            src: "HR. Bukhari no. 4040, Muslim no. 572",
+          },
+          {
+            t: "p",
+            text: "Abu Hurairah radhiyallahu 'anhu meriwayatkan Nabi ﷺ salam setelah 2 rakaat pada shalat Zhuhur atau Ashar, lalu menyempurnakan sisa rakaat dan sujud dua kali (sesudah salam).",
+            src: "HR. Bukhari no. 482, Muslim no. 573",
+          },
+        ],
+      },
+      {
+        heading: "Dalil: Ragu Jumlah Rakaat",
+        content: [
+          {
+            t: "p",
+            text: "Abu Sa'id Al-Khudri radhiyallahu 'anhu meriwayatkan Nabi ﷺ bersabda: 'Jika salah seorang dari kalian ragu dalam shalatnya dan tidak tahu berapa rakaat yang telah dikerjakan, hendaklah ia mengambil yang yakin (bilangan yang lebih sedikit), lalu sujud dua kali sebelum salam.'",
+            src: "HR. Muslim no. 571",
+          },
+        ],
+      },
+      {
+        heading: "Tata Cara Sujud Sahwi",
+        content: [
+          {
+            t: "steps",
+            items: [
+              "Takbir (Allahu Akbar) dan sujud pertama",
+              "Baca tasbih seperti sujud biasa",
+              "Takbir dan duduk di antara dua sujud",
+              "Takbir dan sujud kedua",
+              "Baca tasbih seperti sujud biasa",
+              "Takbir dan bangkit, lalu salam",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Bacaan Sujud Sahwi",
+        content: [
+          {
+            t: "highlight",
+            text: "Bacaan sujud sahwi SAMA dengan sujud biasa — tidak ada dzikir khusus.",
+          },
+          {
+            t: "sub",
+            text: "Bacaan saat sujud:",
+          },
+          {
+            t: "dua",
+            dua: {
+              id: "shalat-13-1",
+              ar: "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+              latin: "Subhāna Rabbiyal A'lā.",
+              arti: "Maha Suci Tuhanku Yang Maha Tinggi.",
+              ref: "HR. Muslim no. 772, Abu Dawud no. 871 — Shahih",
+            },
+          },
+          {
+            t: "note",
+            text: "Dibaca minimal 1x, disunnahkan 3x atau lebih.",
+          },
+          {
+            t: "sub",
+            text: "Bacaan duduk di antara dua sujud:",
+          },
+          {
+            t: "dua",
+            dua: {
+              id: "shalat-13-2",
+              ar: "رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي",
+              latin: "Rabbighfir lī, Rabbighfir lī.",
+              arti: "Ya Tuhanku, ampunilah aku. Ya Tuhanku, ampunilah aku.",
+              ref: "HR. Abu Dawud no. 874, Ibnu Majah no. 897 — Shahih",
+            },
+          },
+          {
+            t: "warn",
+            text: "Bacaan 'Subhāna man lā yas-hu wa lā yanām' (Maha Suci Dzat yang tidak lupa dan tidak tidur) TIDAK ADA dalilnya dari Nabi ﷺ maupun sahabat. Jangan diamalkan.",
+          },
+        ],
+      },
+    ],
+  },
 ];
