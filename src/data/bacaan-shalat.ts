@@ -63,7 +63,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Subhaanakallahumma wa bihamdika, wa tabaarakasmuka, wa ta'aalaa jadduka, wa laa ilaaha ghairuk.",
               arti: "Maha Suci Engkau ya Allah dan segala puji bagi-Mu, Maha Berkah nama-Mu, Maha Tinggi keagungan-Mu, dan tidak ada Tuhan selain Engkau.",
-              ref: "HR. Abu Dawud, An-Nasai, At-Tirmidzi — dishahihkan Al-Albani",
+              ref: "HR. Abu Dawud no. 775, An-Nasai no. 900, At-Tirmidzi no. 242 — dishahihkan Al-Albani",
             },
           },
         ],
@@ -116,7 +116,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ",
               latin: "Bismillaahir rahmaanir rahiim",
               arti: "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-              ref: "QS. Al-Fatihah: 1",
+              ref: "Dibaca sebelum Al-Fatihah. Catatan: ada khilaf apakah Basmalah termasuk ayat pertama Al-Fatihah (Syafi'iyyah) atau bukan (Hanabilah/Ibn Uthaymeen).",
             },
           },
         ],
@@ -175,7 +175,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Subhaanakallahumma Rabbanaa wa bihamdika, Allahummaghfir lii",
               arti: "Maha Suci Engkau ya Allah Tuhan kami dan segala puji bagi-Mu, Ya Allah ampunilah aku.",
-              ref: "Muttafaq 'alaih",
+              ref: "HR. Bukhari no. 794, Muslim no. 484 — Muttafaq 'alaih",
             },
           },
         ],
@@ -201,7 +201,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
               latin: "Sami'allaahu liman hamidah",
               arti: "Semoga Allah mendengar orang yang memuji-Nya.",
-              ref: "HR. Bukhari, Muslim",
+              ref: "HR. Bukhari no. 795, Muslim no. 392",
             },
           },
         ],
@@ -217,7 +217,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Rabbanaa wa lakal hamd, hamdan katsiiran thayyiban mubaarakan fiih, mil-as samaawaati wa mil-al ardhi wa mil-a maa syi'ta min syai-in ba'd",
               arti: "Wahai Tuhan kami, bagi-Mu segala puji, pujian yang banyak, baik, penuh berkah, sepenuh langit, sepenuh bumi, dan sepenuh apa yang Engkau kehendaki setelah itu.",
-              ref: "HR. Muslim",
+              ref: "HR. Bukhari no. 799, Muslim no. 600",
             },
           },
         ],
@@ -475,7 +475,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
               latin: "As-salaamu 'alaikum wa rahmatullaah",
               arti: "Keselamatan dan rahmat Allah atas kalian.",
-              ref: "HR. Muslim",
+              ref: "HR. Muslim no. 431",
             },
           },
         ],
@@ -512,7 +512,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Allahumma Antas Salaam wa minkas salaam, tabaarakta yaa Dzal Jalaali wal Ikraam",
               arti: "Ya Allah, Engkaulah As-Salam dan dari-Mu-lah keselamatan, Maha Berkah Engkau wahai pemilik keagungan dan kemuliaan.",
-              ref: "HR. Muslim, dari Tsauban",
+              ref: "HR. Muslim no. 591, dari Tsauban",
             },
           },
           {
@@ -663,8 +663,8 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu yuhyii wa yumiitu wa huwa 'alaa kulli syai-in qadiir",
               arti: "Tiada Tuhan selain Allah semata, tiada sekutu bagi-Nya, bagi-Nya kerajaan, bagi-Nya pujian, Dia menghidupkan dan mematikan, Dia Maha Kuasa atas segala sesuatu.",
-              ref: "HR. At-Tirmidzi no. 3474, Ahmad — hasan",
-              fadl: "Setara memerdekakan 4 budak dari keturunan Ismail, dan dijaga dari syaitan hingga sore/pagi hari.",
+              ref: "HR. At-Tirmidzi no. 3474 (ba'da Subuh), Ahmad (ba'da Maghrib) — hasan",
+              fadl: "Ditulis 10 kebaikan, dihapus 10 dosa, dinaikkan 10 derajat, dan dijaga dari syaitan hingga sore/pagi hari.",
             },
           },
         ],
@@ -733,12 +733,12 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
           {
             t: "p",
             text: "Ibnu Mas'ud radhiyallahu 'anhu meriwayatkan bahwa Nabi ﷺ shalat Zhuhur 5 rakaat. Setelah diberitahu, beliau sujud dua kali (sesudah salam).",
-            src: "HR. Bukhari no. 4040, Muslim no. 572",
+            src: "HR. Bukhari no. 1226, Muslim no. 572",
           },
           {
             t: "p",
             text: "Abu Hurairah radhiyallahu 'anhu meriwayatkan Nabi ﷺ salam setelah 2 rakaat pada shalat Zhuhur atau Ashar, lalu menyempurnakan sisa rakaat dan sujud dua kali (sesudah salam).",
-            src: "HR. Bukhari no. 482, Muslim no. 573",
+            src: "HR. Bukhari no. 1227, Muslim no. 573",
           },
         ],
       },

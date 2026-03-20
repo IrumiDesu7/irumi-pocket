@@ -264,11 +264,11 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
         content: [
           {
             t: "p",
-            text: "Mendahulukan kanan saat memakai, mendahulukan kiri saat melepas (HR. Bukhari no. 5856, Muslim no. 2097).",
+            text: "Mendahulukan kanan saat memakai, mendahulukan kiri saat melepas — qiyas dari prinsip umum mendahulukan kanan (HR. Bukhari no. 168, Muslim no. 268). Khusus alas kaki: HR. Muslim no. 2097.",
           },
           {
             t: "p",
-            text: "Membaca Bismillah saat melepas pakaian — penghalang pandangan jin (HR. Tirmidzi; hasan).",
+            text: "Membaca Bismillah saat melepas pakaian — penghalang pandangan jin (HR. Tirmidzi no. 606 — shahih menurut Al-Albani, dha'if menurut Darussalam).",
           },
           {
             t: "p",
@@ -463,7 +463,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
         content: [
           {
             t: "p",
-            text: "Menahan semampunya dan menutup mulut (HR. Bukhari no. 6223, Muslim no. 2994). Setan masuk melalui mulut yang terbuka lebar.",
+            text: "Menahan semampunya (HR. Bukhari no. 6223, Muslim no. 2994) dan menutup mulut dengan tangan (HR. Muslim no. 2995). Setan masuk melalui mulut yang terbuka lebar.",
           },
         ],
       },
@@ -485,16 +485,16 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Ghatthul-inā'a wa awkus-siqā'a wa aghliqul-bāba wa athfi'us-sirāj.",
               arti: "Tutuplah bejana, ikatlah kantung air, kuncilah pintu, dan padamkanlah lampu.",
-              ref: "HR. Bukhari no. 5623, Muslim — Shahih",
+              ref: "HR. Bukhari no. 5623, Muslim no. 2012 — Shahih",
             },
           },
           {
             t: "steps",
             items: [
-              "Menutup bejana — ada malam turunnya wabah (HR. Muslim)",
+              "Menutup bejana — ada malam turunnya wabah (HR. Muslim no. 2014)",
               "Mengunci pintu dengan Bismillah — setan tidak bisa membukanya (HR. Bukhari no. 3280)",
-              "Mematikan api/lampu — 'Api adalah musuh bagi kalian' (HR. Bukhari-Muslim)",
-              "Menahan anak-anak saat senja — setan bertebaran (HR. Bukhari-Muslim)",
+              "Mematikan api/lampu — 'Api adalah musuh bagi kalian' (HR. Bukhari no. 6294, Muslim no. 2016)",
+              "Menahan anak-anak saat senja — setan bertebaran (HR. Bukhari no. 3304, Muslim no. 2012)",
             ],
           },
         ],
@@ -555,11 +555,11 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Doa musafir mustajab: 'Tiga doa pasti dikabulkan: doa orang dizalimi, doa musafir, dan doa orang tua' (HR. Tirmidzi no. 1905).",
+            text: "Doa musafir mustajab: 'Tiga doa pasti dikabulkan: doa orang dizalimi, doa musafir, dan doa ayah terhadap anaknya' (HR. Tirmidzi no. 1905).",
           },
           {
             t: "p",
-            text: "'Safar adalah bagian dari azab... jika urusan selesai, segeralah pulang' (HR. Bukhari-Muslim).",
+            text: "'Safar adalah bagian dari azab... jika urusan selesai, segeralah pulang' (HR. Bukhari no. 1804, Muslim no. 1927).",
           },
         ],
       },
@@ -602,7 +602,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "note",
-            text: "HR. Bukhari no. 6986, Muslim no. 2261; kompilasi Ibn Hajar, Fathul Bari 12/370.",
+            text: "Kompilasi dari beberapa hadits: HR. Bukhari no. 6986, 7044; Muslim no. 2261, 2262.",
           },
         ],
       },
@@ -659,7 +659,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "Bismika Rabbī wadha'tu janbī, wa bika arfa'uh, fa in amsakta nafsī farhamhā, wa in arsaltahā fahfazhhā bimā tahfazhu bihi 'ibādakash-shālihīn.",
               arti: "Dengan nama-Mu, Rabbku, aku meletakkan lambungku. Jika Engkau menahan jiwaku, rahmatilah. Jika Engkau melepaskannya, jagalah sebagaimana Engkau menjaga hamba-hamba-Mu yang shalih.",
-              ref: "HR. Bukhari no. 6320, Muslim no. 2714 — Shahih",
+              ref: "HR. Bukhari no. 6320 — Shahih. Catatan: Muslim no. 2714 memiliki lafazh berbeda di awal ('Subhanaka Allahumma Rabbi...').",
             },
           },
         ],
@@ -685,7 +685,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Tidur miring ke kanan. Tengkurap dibenci Allah (HR. Ibn Majah no. 3724).",
+            text: "Tidur miring ke kanan (HR. Bukhari no. 247). Tengkurap dibenci Allah (HR. Ibn Majah no. 3723).",
           },
         ],
       },
@@ -782,7 +782,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "warn",
-            text: "Yang dimaksud 'meludah' adalah meniup ringan (نَفْث — nafts) ke kiri tanpa mengeluarkan air liur, agar tidak mengotori tempat shalat atau mengganggu orang di sebelah kiri.",
+            text: "Yang dimaksud 'meludah' adalah meludah ringan (تَفْل — tafl) ke kiri tanpa mengeluarkan air liur, agar tidak mengotori tempat shalat atau mengganggu orang di sebelah kiri.",
           },
         ],
       },

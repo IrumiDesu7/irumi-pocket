@@ -347,6 +347,29 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
           },
         ],
       },
+      {
+        id: "mad-lazim",
+        title: "Mad Lazim \u2014 6 Harakat",
+        caraBaca:
+          "Huruf mad bertemu sukun asli (tetap/tidak berubah saat washal maupun waqaf) atau tasydid dalam satu kata. Wajib dipanjangkan 6 harakat.",
+        examples: [
+          {
+            ayat: "\u0627\u0644\u0636\u0651\u064E\u0627\u0644\u0651\u0650\u064A\u0646\u064E",
+            latin: "adh-dhoooollliin",
+            keterangan: "Alif + lam bertasydid \u2192 wajib 6 harakat",
+          },
+          {
+            ayat: "\u062A\u064E\u0627\u0645\u064E\u0651\u0629\u064B",
+            latin: "taaaammataw",
+            keterangan: "Alif + mim bertasydid \u2192 wajib 6 harakat",
+          },
+          {
+            ayat: "\u0627\u0644\u0645",
+            latin: "alif laaam miiiim",
+            keterangan: "Huruf-huruf muqaththa'ah di awal surah",
+          },
+        ],
+      },
     ],
   },
   {
@@ -433,7 +456,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
     id: "qalqalah",
     title: "Qalqalah (Memantul)",
     intro:
-      "Qalqalah adalah bunyi memantul yang terjadi pada 5 huruf tertentu ketika huruf tersebut berharakat sukun (mati). 5 Huruf Qalqalah: \u062F \u062C \u0628 \u0637 \u0642 (disingkat: \u0642\u064F\u0637\u0652\u0628\u064F \u062C\u064E\u062F\u0651\u064D). Pantulan qalqalah harus ringan dan alami, tidak berlebihan. Bunyi pantulannya mengikuti vokal terdekat.",
+      "Qalqalah adalah bunyi memantul yang terjadi pada 5 huruf tertentu ketika huruf tersebut berharakat sukun (mati). 5 Huruf Qalqalah: \u062F \u062C \u0628 \u0637 \u0642 (disingkat: \u0642\u064F\u0637\u0652\u0628\u064F \u062C\u064E\u062F\u0651\u064D). Pantulan qalqalah harus ringan dan alami, tidak berlebihan. Bunyi pantulannya harus netral — tidak menyerupai fathah, dhammah, atau kasrah.",
     rules: [
       {
         id: "qalqalah-sughra",
@@ -506,7 +529,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         title: "Waqaf La",
         huruf: "\u0644\u0627",
         caraBaca:
-          "Sangat dianjurkan untuk tidak berhenti. Berhenti di sini bisa mengubah makna ayat.",
+          "Tidak boleh berhenti di sini. Berhenti bisa mengubah makna ayat.",
         examples: [],
       },
       {
@@ -529,7 +552,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         id: "adab-1",
         title: "Berwudhu",
         caraBaca:
-          "Dianjurkan (sunnah). Sebagian ulama mewajibkan wudhu untuk menyentuh mushaf fisik.",
+          "Dianjurkan (sunnah). Jumhur (mayoritas) ulama mewajibkan wudhu untuk menyentuh mushaf fisik.",
         examples: [],
       },
       {

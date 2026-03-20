@@ -12,6 +12,8 @@ This app follows **manhaj Salafi** exclusively. When working with content:
 - Only include hadith that are **shahih** (authentic) or **hasan** (good). Never include hadith that are **dhaif** (weak), **maudhu** (fabricated), or of questionable authenticity.
 - If there is **khilaf** (scholarly disagreement) among the ulama on a ruling or practice, note it explicitly rather than presenting one opinion as absolute.
 - All references must cite their source (hadith book, narrator chain grade). The existing `ref` field in `Dua` types serves this purpose.
+- When verifying Islamic references (hadith numbers, ayat, fatwa), **search in Arabic first** for highest accuracy — the primary sources originate from Makkah and Madinah. Prioritize: islamqa.info, alifta.gov.sa, binbaz.org.sa, binothaimeen.net, dorar.net.
+- **Never fabricate** hadith numbers, ayat numbers, or narrator attributions. If uncertain, verify via search first. If search fails, state honestly that the reference needs verification from the original source.
 - The app includes a report mechanism (`ReportButton` → `mailto:ikalam89@gmail.com`) for users to flag potentially inauthentic content.
 
 ## Commands
