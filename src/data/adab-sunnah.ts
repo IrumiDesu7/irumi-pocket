@@ -148,7 +148,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Menggunakan tangan kiri untuk bersuci (HR. Bukhari no. 152). Tidak menghadap/membelakangi kiblat di tempat terbuka (HR. Bukhari no. 394).",
+            text: "Menggunakan tangan kiri untuk bersuci (HR. Bukhari no. 153). Tidak menghadap/membelakangi kiblat di tempat terbuka (HR. Bukhari no. 394).",
           },
         ],
       },
@@ -343,7 +343,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Minum sambil duduk, 3 tegukan, mengambil napas di luar wadah (HR. Muslim no. 2024, Bukhari no. 5630).",
+            text: "Minum sambil duduk (HR. Muslim no. 2024), 3 tegukan dengan mengambil napas di luar wadah (HR. Bukhari no. 5631).",
           },
         ],
       },
