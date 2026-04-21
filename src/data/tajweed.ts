@@ -65,7 +65,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
           },
           {
             ayat: "\u064A\u064E\u0646\u0652\u0623\u064E\u0648\u0652\u0646\u064E",
-            latin: "yan-awna",
+            latin: "yan'awna",
             keterangan: "Nun mati + \u0621 \u2192 dibaca jelas",
           },
           {
@@ -94,7 +94,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
           },
           {
             ayat: "\u062E\u064E\u064A\u0652\u0631\u064B\u0627 \u064A\u064E\u0631\u064E\u0647\u064F",
-            latin: "khoiray-yaroh",
+            latin: "khairay yarah",
             keterangan: "Tanwin lebur ke ya + dengung",
           },
         ],
@@ -213,7 +213,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         examples: [
           {
             ayat: "\u0644\u064E\u0647\u064F\u0645\u0652 \u0645\u064E\u0627",
-            latin: "lahumm maa",
+            latin: "lahummaa",
             keterangan: "Dua mim jadi satu + dengung",
           },
           {
@@ -360,7 +360,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
           },
           {
             ayat: "\u062A\u064E\u0627\u0645\u064E\u0651\u0629\u064B",
-            latin: "taaaammataw",
+            latin: "ath-thaaaammah",
             keterangan: "Alif + mim bertasydid \u2192 wajib 6 harakat",
           },
           {
@@ -433,7 +433,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         examples: [
           {
             ayat: "\u0644\u064E\u0647\u064F\u0645\u0652 \u0645\u064E\u0627",
-            latin: "lahumm maa",
+            latin: "lahummaa",
             keterangan: "Dengung saat mim bertemu mim",
           },
         ],
