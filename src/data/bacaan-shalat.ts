@@ -475,7 +475,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               ar: "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
               latin: "As-salaamu 'alaikum wa rahmatullaah",
               arti: "Keselamatan dan rahmat Allah atas kalian.",
-              ref: "HR. Muslim no. 431",
+              ref: "HR. Abu Dawud no. 996-997; An-Nasai no. 1322 — sahih (lafadz salam dengan 'wa rahmatullah')",
             },
           },
         ],
@@ -663,7 +663,7 @@ export const BACAAN_SHALAT_CHAPTERS: Chapter[] = [
               latin:
                 "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu yuhyii wa yumiitu wa huwa 'alaa kulli syai-in qadiir",
               arti: "Tiada Tuhan selain Allah semata, tiada sekutu bagi-Nya, bagi-Nya kerajaan, bagi-Nya pujian, Dia menghidupkan dan mematikan, Dia Maha Kuasa atas segala sesuatu.",
-              ref: "HR. At-Tirmidzi no. 3474 (ba'da Subuh), Ahmad (ba'da Maghrib) — hasan",
+              ref: "HR. At-Tirmidzi no. 3534 (ba'da Maghrib), An-Nasai dan Ahmad (menambah ba'da Subuh) — hasan (At-Tirmidzi), dishahihkan sebagian ulama",
               fadl: "Ditulis 10 kebaikan, dihapus 10 dosa, dinaikkan 10 derajat, dan dijaga dari syaitan hingga sore/pagi hari.",
             },
           },

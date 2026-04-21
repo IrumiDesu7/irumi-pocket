@@ -136,9 +136,9 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
             keterangan: "Nun \u2192 mim + dengung sebelum ba",
           },
           {
-            ayat: "\u0623\u064E\u0646\u0652\u0628\u0650\u0626\u0652\u0647\u064F\u0645",
+            ayat: "\u0623\u064E\u0646\u06E2\u0628\u0650\u0626\u0652\u0647\u064F\u0645",
             latin: "ambi'hum",
-            keterangan: "Nun \u2192 mim + dengung",
+            keterangan: "Nun \u2192 mim + dengung (rasm Utsmani: nun ditandai mim kecil di atas)",
           },
           {
             ayat: "\u0633\u064E\u0645\u0650\u064A\u0639\u064C \u0628\u064E\u0635\u0650\u064A\u0631\u064D",
@@ -282,7 +282,7 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
         id: "mad-wajib-muttashil",
         title: "Mad Wajib Muttashil \u2014 4-5 Harakat",
         caraBaca:
-          "Huruf mad bertemu hamzah (\u0621) dalam satu kata. Wajib dipanjangkan 4-5 harakat.",
+          "Huruf mad bertemu hamzah (\u0621) dalam satu kata. Saat washal: 4-5 harakat (4 lebih utama via Hafs/Syathibiyyah). Saat waqaf jika hamzah di akhir kata: bisa 5-6 harakat.",
         examples: [
           {
             ayat: "\u062C\u064E\u0627\u0621\u064E",
@@ -359,9 +359,9 @@ export const TAJWEED_SECTIONS: TajweedSection[] = [
             keterangan: "Alif + lam bertasydid \u2192 wajib 6 harakat",
           },
           {
-            ayat: "\u062A\u064E\u0627\u0645\u064E\u0651\u0629\u064B",
+            ayat: "\u0627\u0644\u0637\u0651\u064E\u0627\u0645\u0651\u064E\u0629\u064F",
             latin: "ath-thaaaammah",
-            keterangan: "Alif + mim bertasydid \u2192 wajib 6 harakat",
+            keterangan: "Alif + mim bertasydid \u2192 wajib 6 harakat (QS An-Nazi'at: 34)",
           },
           {
             ayat: "\u0627\u0644\u0645",

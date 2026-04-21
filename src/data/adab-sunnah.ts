@@ -268,7 +268,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
           },
           {
             t: "p",
-            text: "Membaca Bismillah saat melepas pakaian — penghalang pandangan jin (HR. Tirmidzi no. 606 — shahih menurut Al-Albani, dha'if menurut Darussalam).",
+            text: "Membaca Bismillah saat masuk tempat buang hajat (yang juga melibatkan melepas pakaian) — penghalang pandangan jin terhadap aurat (HR. Tirmidzi no. 606 — shahih menurut Al-Albani, dha'if menurut sebagian ulama karena perawi Al-Hakam bin Basyir).",
           },
           {
             t: "p",
@@ -492,7 +492,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
             t: "steps",
             items: [
               "Menutup bejana — ada malam turunnya wabah (HR. Muslim no. 2014)",
-              "Mengunci pintu dengan Bismillah — setan tidak bisa membukanya (HR. Bukhari no. 3280)",
+              "Mengunci pintu dengan Bismillah — setan tidak bisa membukanya (HR. Bukhari no. 3280, 5623; Muslim no. 2012)",
               "Mematikan api/lampu — 'Api adalah musuh bagi kalian' (HR. Bukhari no. 6294, Muslim no. 2016)",
               "Menahan anak-anak saat senja — setan bertebaran (HR. Bukhari no. 3304, Muslim no. 2012)",
             ],
@@ -713,7 +713,7 @@ export const ADAB_SUNNAH_CHAPTERS: Chapter[] = [
               latin:
                 "A'ūdzu bi kalimātillāhit-tāmmāti min syarri mā khalaq.",
               arti: "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan apa yang Dia ciptakan.",
-              ref: "HR. Muslim no. 2708 — Shahih",
+              ref: "HR. Muslim no. 2708, 2709 — Shahih (dari Khaulah bint Hakim; lafadz semula terkait singgah saat safar, diamalkan secara umum sebagai perlindungan)",
             },
           },
         ],
