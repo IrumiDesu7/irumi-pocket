@@ -5,7 +5,6 @@ import {
 	type LucideIcon,
 	Sparkles,
 } from "lucide-react";
-import { StarGlyph } from "@/components/content/ornaments";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -15,14 +14,13 @@ interface Tab {
 	id: TabId;
 	label: string;
 	icon: LucideIcon;
-	short: string;
 }
 
 const TABS: Tab[] = [
-	{ id: "adab", label: "Adab Sunnah", short: "Adab", icon: Sparkles },
-	{ id: "shalat", label: "Bacaan Shalat", short: "Shalat", icon: BookOpen },
-	{ id: "tajweed", label: "Tajweed", short: "Tajweed", icon: BookText },
-	{ id: "favorites", label: "Favorit", short: "Favorit", icon: Heart },
+	{ id: "adab", label: "Adab Sunnah", icon: Sparkles },
+	{ id: "shalat", label: "Bacaan Shalat", icon: BookOpen },
+	{ id: "tajweed", label: "Tajweed", icon: BookText },
+	{ id: "favorites", label: "Favorit", icon: Heart },
 ];
 
 interface BottomNavProps {
@@ -36,46 +34,36 @@ export function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
 			className={cn(
 				"fixed z-50",
 				"bottom-0 left-0 right-0",
-				"border-t border-border/60",
-				"bg-background/85 backdrop-blur-xl",
+				"bg-card/90 backdrop-blur-xl",
 				"pb-[env(safe-area-inset-bottom)]",
-				"lg:top-0 lg:bottom-0 lg:right-auto lg:w-60",
+				"lg:top-0 lg:bottom-0 lg:right-auto lg:w-56",
 				"lg:flex lg:flex-col",
-				"lg:border-t-0 lg:border-r lg:border-border/50 lg:bg-card/60",
+				"lg:border-r lg:border-border/50 lg:bg-card lg:backdrop-blur-none",
 				"lg:pb-0",
 			)}
 		>
-			{/* Top hairline gradient — mobile */}
-			<div
-				aria-hidden
-				className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-primary/25 to-transparent lg:hidden"
-			/>
+			{/* Top edge border — mobile only */}
+			<div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-border to-transparent lg:hidden" />
 
-			{/* Sidebar masthead — desktop only */}
-			<div className="relative hidden lg:block lg:px-6 lg:pt-9 lg:pb-6">
-				<div className="flex items-baseline gap-2">
-					<span className="font-display-italic text-[22px] leading-none text-foreground">
-						Irumi
-					</span>
-					<span className="font-kicker text-[9px] text-gold">
-						Pocket
-					</span>
+			{/* Subtle tint — desktop sidebar only */}
+			<div className="pointer-events-none absolute inset-0 hidden bg-gradient-to-b from-primary/[0.02] to-transparent lg:block" />
+
+			{/* Sidebar header — desktop only */}
+			<div className="relative hidden lg:block lg:px-5 lg:pt-7 lg:pb-5">
+				<div className="flex items-center gap-2.5">
+					<div className="size-1.5 rotate-45 rounded-[1px] bg-primary/50" />
+					<p className="text-[11px] font-bold tracking-[0.25em] text-primary/60 uppercase">
+						Irumi Pocket
+					</p>
 				</div>
-				<p className="mt-2 font-kicker text-[9px] text-muted-foreground/80">
-					Manhaj · Salafus Shalih
-				</p>
-				<div className="mt-5 flex items-center gap-1.5">
-					<div className="h-px flex-1 bg-gradient-to-r from-gold/40 via-border to-transparent" />
-					<StarGlyph size={8} className="text-gold/70" />
-					<div className="h-px flex-1 bg-gradient-to-l from-gold/40 via-border to-transparent" />
-				</div>
+				<div className="mt-4 h-px bg-gradient-to-r from-primary/20 via-border/50 to-transparent" />
 			</div>
 
 			{/* Navigation tabs */}
 			<div
 				className={cn(
-					"flex h-16 items-stretch justify-around px-1",
-					"lg:relative lg:h-auto lg:flex-col lg:items-stretch lg:justify-start lg:gap-1 lg:px-3",
+					"flex h-14 items-center justify-around",
+					"lg:relative lg:h-auto lg:flex-col lg:items-stretch lg:justify-start lg:gap-0.5 lg:px-3",
 				)}
 			>
 				{TABS.map((tab) => {
@@ -85,83 +73,59 @@ export function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
 							type="button"
 							key={tab.id}
 							onClick={() => onTabChange(tab.id)}
-							aria-pressed={isActive}
 							className={cn(
-								"group relative flex min-w-0 transition-all duration-300",
-								"flex-1 flex-col items-center justify-center gap-1 px-2",
-								"lg:flex-none lg:flex-row lg:items-center lg:gap-3 lg:rounded-xl lg:px-3.5 lg:py-2.5",
+								"relative flex min-w-0 transition-all duration-200",
+								"flex-1 flex-col items-center gap-0.5 px-3 py-1.5",
+								"lg:flex-none lg:flex-row lg:items-center lg:gap-3 lg:rounded-lg lg:px-3 lg:py-2.5",
 								isActive
 									? "text-primary lg:bg-primary/10"
-									: "text-muted-foreground active:scale-95 lg:active:scale-100 lg:hover:bg-muted/40 lg:hover:text-foreground",
+									: "text-muted-foreground active:scale-95 lg:active:scale-100 lg:hover:bg-muted/30 lg:hover:text-foreground",
 							)}
 						>
-							{/* Mobile active pill — behind icon */}
+							{/* Mobile active indicator — top bar */}
 							{isActive && (
-								<span
-									aria-hidden
-									className="absolute inset-x-4 top-1.5 h-9 rounded-full bg-primary/10 lg:hidden"
-								/>
+								<span className="absolute -top-0.5 left-1/2 h-0.5 w-6 -translate-x-1/2 rounded-full bg-primary lg:hidden" />
 							)}
-							{/* Mobile top marker */}
+							{/* Desktop active indicator — left bar */}
 							{isActive && (
-								<span
-									aria-hidden
-									className="absolute left-1/2 top-0 h-[3px] w-8 -translate-x-1/2 rounded-b-full bg-primary lg:hidden"
-								/>
-							)}
-							{/* Desktop active rail */}
-							{isActive && (
-								<span
-									aria-hidden
-									className="absolute left-0 top-1/2 hidden h-6 w-[3px] -translate-y-1/2 rounded-r-full bg-primary lg:block"
-								/>
+								<span className="absolute left-0 top-1/2 hidden h-5 w-0.5 -translate-y-1/2 rounded-full bg-primary lg:block" />
 							)}
 							<tab.icon
 								className={cn(
-									"relative z-10 transition-all duration-300",
-									"size-[19px] lg:size-[17px]",
-									isActive && "drop-shadow-[0_0_8px_color-mix(in_oklch,var(--primary)_60%,transparent)]",
+									"size-5 transition-all duration-200",
+									isActive && "drop-shadow-[0_0_6px_rgba(45,138,85,0.5)]",
 								)}
-								strokeWidth={isActive ? 2.2 : 1.6}
+								strokeWidth={isActive ? 2.5 : 1.75}
 							/>
 							<span
 								className={cn(
-									"relative z-10 truncate transition-all duration-300",
-									"text-[10px] lg:text-[13px]",
-									isActive
-										? "font-semibold tracking-tight"
-										: "font-medium tracking-tight",
+									"truncate transition-all duration-200",
+									"text-[10px] lg:text-sm",
+									isActive ? "font-semibold" : "font-medium",
 								)}
 							>
-								<span className="lg:hidden">{tab.short}</span>
-								<span className="hidden lg:inline">{tab.label}</span>
+								{tab.label}
 							</span>
 						</button>
 					);
 				})}
 			</div>
 
-			{/* Desktop footer — theme + support */}
-			<div className="mt-auto hidden lg:block lg:px-6 lg:pb-6 lg:pt-4">
-				<div className="mb-4 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-				<div className="flex items-center justify-between gap-2">
-					<div className="flex items-center gap-2">
-						<ThemeToggle />
-						<span className="font-kicker text-[9px] text-muted-foreground">
-							Tema
-						</span>
-					</div>
-					<a
-						href="https://saweria.co/irumid"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex items-center gap-1.5 rounded-full border border-gold/25 px-2.5 py-1 text-muted-foreground/70 transition-all duration-200 hover:border-gold/60 hover:bg-gold/10 hover:text-gold"
-						aria-label="Dukung Kami"
-					>
-						<Heart className="size-3" strokeWidth={2} />
-						<span className="font-kicker text-[9px]">Dukung</span>
-					</a>
+			{/* Footer — desktop sidebar bottom */}
+			<div className="mt-auto hidden lg:block lg:border-t lg:border-border/30 lg:px-5 lg:py-4">
+				<div className="flex items-center gap-2.5">
+					<ThemeToggle />
+					<span className="text-xs text-muted-foreground">Tema</span>
 				</div>
+				<a
+					href="https://saweria.co/irumid"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="mt-3 flex items-center gap-2 rounded-lg px-1 py-1.5 text-muted-foreground/50 transition-colors duration-200 hover:text-primary/70"
+				>
+					<Heart className="size-3.5" strokeWidth={1.75} />
+					<span className="text-[11px]">Dukung Kami</span>
+				</a>
 			</div>
 		</nav>
 	);

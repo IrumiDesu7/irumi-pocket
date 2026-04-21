@@ -1,19 +1,17 @@
-import { StarGlyph } from "./ornaments";
-
 interface SectionHeaderProps {
-	heading: string;
+  heading: string;
 }
 
 export function SectionHeader({ heading }: SectionHeaderProps) {
-	return (
-		<div className="mb-4 mt-9 first:mt-0">
-			<div className="mb-2 flex items-center gap-2">
-				<StarGlyph size={10} className="text-primary/60" />
-				<div className="h-px flex-1 bg-gradient-to-r from-primary/30 via-border to-transparent" />
-			</div>
-			<h3 className="font-display text-[19px] font-medium leading-snug text-primary">
-				{heading}
-			</h3>
-		</div>
-	);
+  return (
+    <div className="mb-3 mt-7 first:mt-0">
+      <h3 className="text-[17px] font-semibold leading-tight text-primary">
+        {heading}
+      </h3>
+      <div className="mt-1.5 flex items-center gap-1.5">
+        <div className="h-0.5 w-8 rounded-full bg-primary/50" />
+        <div className="size-1 rounded-full bg-primary/30" />
+      </div>
+    </div>
+  );
 }
